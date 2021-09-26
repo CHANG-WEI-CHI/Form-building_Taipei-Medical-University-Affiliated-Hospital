@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>偏頭痛失能</title>
+    <style>
+        p{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <form action="form5偏頭痛失能_process.php">
+        <h2>偏頭痛失能評估問卷 (MIDAS 問卷) </h2>
+        <p>請回答以下有關您過去三個月內所有頭痛的相關問題。將答案填寫於每個問題旁的空格內。</p>
+        <br>
+        <p>假如您過去三個月沒有從事該項活動，請填０。</p>
+        <br>
+        <br>
+        <p>１. 過去三個月中，您有多少天因為頭痛而無法上班或上課？</p>
+        &ensp;
+        <input type="text" name="notwork">天
+        <br>
+        <br>
+        <p>２. 過去三個月中，您有多少天因為頭痛而造成工作或課業上的成效減少一半或一半以上（不要將第１題無法上班或上課的日數算在內）？</p>
+        &ensp;
+        <input type="text" name="halfwork">天
+        <br>
+        <br>
+        <p>３. 過去三個月中，您有多少天因為頭痛而無法做家事？</p>
+        &ensp;
+        <input type="text" name="nothomework">天
+        <br>
+        <br>
+        <p>４. 過去三個月中，您有多少天因為頭痛而做家事的成效減少一半或一半以上（不要將第３題無法作家事的日數算在內）？</p>
+        &ensp;
+        <input type="text" name="halfhomework">天
+        <br>
+        <br>
+        <p>５. 過去三個月中，您有多少天因為頭痛而沒有辦法參加家庭、社交或休閒活動？</p>
+        &ensp;
+        <input type="text" name="notactivity">天
+        <br>
+        <br>
+        <p>Ａ . 過去三個月中，您有多少天曾經有過任何的頭痛（如果頭痛超過一天，則每日都要計算）？</p>
+        &ensp;
+        <input type="text" name="acheday">天
+        <br>
+        <br>
+        <p>Ｂ. 以 0 至10 表示頭痛的程度（0＝完全不痛，10＝痛得最厲害），平均而言，這些頭痛程度是 ？</p>
+        &ensp;
+        <input type="text" name="achelevel">
+        <br>
+        <br>
+        <p>(問卷版權歸Innovative Medical Research, Inc)</p>
+        <br>
+        <br>
+        <input type="submit" value="送出">
+    </form>
+</body>
+</html>
